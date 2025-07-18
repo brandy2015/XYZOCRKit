@@ -1,4 +1,6 @@
- 
+[English](README_EN.md) | [中文](README.md)
+
+
 # XYZOCRKit
 
 轻量级、易扩展的 iOS OCR 工具库（开源 Pod）
