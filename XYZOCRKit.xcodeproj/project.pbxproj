@@ -8,20 +8,55 @@
 
 /* Begin PBXBuildFile section */
 		54682418FCA3D77D94061EDA /* Pods_XYZOCRKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1907D7871F5DE246E35AD5D /* Pods_XYZOCRKit.framework */; };
+		D68284822E2A5683001781EB /* ViewModel_XFYun_OCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68284802E2A5683001781EB /* ViewModel_XFYun_OCR.swift */; };
+		D68284862E2A56B7001781EB /* ViewModel_AliyunOCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68284832E2A56B7001781EB /* ViewModel_AliyunOCR.swift */; };
+		D68284872E2A56B7001781EB /* AliyunOCRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68284842E2A56B7001781EB /* AliyunOCRService.swift */; };
+		D682848A2E2A56DA001781EB /* ViewModel_AliBailian_OCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68284882E2A56DA001781EB /* ViewModel_AliBailian_OCR.swift */; };
+		D682848F2E2A5705001781EB /* ViewModel_AWSTextractOCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682848B2E2A5705001781EB /* ViewModel_AWSTextractOCR.swift */; };
+		D68284902E2A5705001781EB /* AWSTextractService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682848D2E2A5705001781EB /* AWSTextractService.swift */; };
+		D68284912E2A5705001781EB /* AWSSignerV4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682848C2E2A5705001781EB /* AWSSignerV4.swift */; };
+		D68284962E2A573C001781EB /* toBase64String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68284932E2A573C001781EB /* toBase64String.swift */; };
+		D68284972E2A573C001781EB /* BaiduOCRTokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68284942E2A573C001781EB /* BaiduOCRTokenManager.swift */; };
+		D68284982E2A573C001781EB /* BaiduOCROfficialService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68284922E2A573C001781EB /* BaiduOCROfficialService.swift */; };
+		D682849C2E2A576A001781EB /* MegviiOCRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682849A2E2A576A001781EB /* MegviiOCRService.swift */; };
+		D682849D2E2A576A001781EB /* ViewModel_Megvii_OCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68284992E2A576A001781EB /* ViewModel_Megvii_OCR.swift */; };
+		D68284A12E2A5787001781EB /* GoogleOCRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682849F2E2A5787001781EB /* GoogleOCRService.swift */; };
+		D68284A22E2A5787001781EB /* ViewModel_GoogleOCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = D682849E2E2A5787001781EB /* ViewModel_GoogleOCR.swift */; };
+		D68284A52E2A57BA001781EB /* ViewModel_HuaweiOCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68284A32E2A57BA001781EB /* ViewModel_HuaweiOCR.swift */; };
+		D68284A82E2A57DF001781EB /* TencentOCRManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68284A62E2A57DF001781EB /* TencentOCRManager.swift */; };
 		D687DE312E29DA6B00550A2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D687DE2D2E29DA6B00550A2D /* SceneDelegate.swift */; };
 		D687DE332E29DA6B00550A2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D687DE272E29DA6B00550A2D /* Assets.xcassets */; };
 		D687DE352E29DA6B00550A2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D687DE2A2E29DA6B00550A2D /* LaunchScreen.storyboard */; };
 		D687DE362E29DA6B00550A2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D687DE2C2E29DA6B00550A2D /* Main.storyboard */; };
 		D687DE3B2E2A007000550A2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D687DE382E2A007000550A2D /* AppDelegate.swift */; };
-		D687DE3C2E2A007000550A2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D687DE392E2A007000550A2D /* ViewController.swift */; };
+		D687DE3C2E2A007000550A2D /* VC_Test_OCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = D687DE392E2A007000550A2D /* VC_Test_OCR.swift */; };
 		D687DE3F2E2A025300550A2D /* podsx.swift in Sources */ = {isa = PBXBuildFile; fileRef = D687DE3E2E2A024F00550A2D /* podsx.swift */; };
 		D687DE412E2A026F00550A2D /* XYZOCRKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D687DE402E2A026F00550A2D /* XYZOCRKit.podspec */; };
+		D687DE4D2E2A05FF00550A2D /* ActivityToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = D687DE492E2A05FF00550A2D /* ActivityToken.swift */; };
+		D687DE4E2E2A05FF00550A2D /* OCRServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D687DE4A2E2A05FF00550A2D /* OCRServiceError.swift */; };
+		D687DE4F2E2A05FF00550A2D /* RxImagePickerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D687DE4B2E2A05FF00550A2D /* RxImagePickerDelegateProxy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		77484BDDFC876E767FCB7BE1 /* Pods-XYZOCRKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZOCRKit.release.xcconfig"; path = "Target Support Files/Pods-XYZOCRKit/Pods-XYZOCRKit.release.xcconfig"; sourceTree = "<group>"; };
 		7A30ABDA10FEFD074C0AB795 /* Pods-XYZOCRKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZOCRKit.debug.xcconfig"; path = "Target Support Files/Pods-XYZOCRKit/Pods-XYZOCRKit.debug.xcconfig"; sourceTree = "<group>"; };
 		A1907D7871F5DE246E35AD5D /* Pods_XYZOCRKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYZOCRKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D68284802E2A5683001781EB /* ViewModel_XFYun_OCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel_XFYun_OCR.swift; sourceTree = "<group>"; };
+		D68284832E2A56B7001781EB /* ViewModel_AliyunOCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel_AliyunOCR.swift; sourceTree = "<group>"; };
+		D68284842E2A56B7001781EB /* AliyunOCRService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliyunOCRService.swift; sourceTree = "<group>"; };
+		D68284882E2A56DA001781EB /* ViewModel_AliBailian_OCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel_AliBailian_OCR.swift; sourceTree = "<group>"; };
+		D682848B2E2A5705001781EB /* ViewModel_AWSTextractOCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel_AWSTextractOCR.swift; sourceTree = "<group>"; };
+		D682848C2E2A5705001781EB /* AWSSignerV4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSSignerV4.swift; sourceTree = "<group>"; };
+		D682848D2E2A5705001781EB /* AWSTextractService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSTextractService.swift; sourceTree = "<group>"; };
+		D68284922E2A573C001781EB /* BaiduOCROfficialService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiduOCROfficialService.swift; sourceTree = "<group>"; };
+		D68284932E2A573C001781EB /* toBase64String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toBase64String.swift; sourceTree = "<group>"; };
+		D68284942E2A573C001781EB /* BaiduOCRTokenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiduOCRTokenManager.swift; sourceTree = "<group>"; };
+		D68284992E2A576A001781EB /* ViewModel_Megvii_OCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel_Megvii_OCR.swift; sourceTree = "<group>"; };
+		D682849A2E2A576A001781EB /* MegviiOCRService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegviiOCRService.swift; sourceTree = "<group>"; };
+		D682849E2E2A5787001781EB /* ViewModel_GoogleOCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel_GoogleOCR.swift; sourceTree = "<group>"; };
+		D682849F2E2A5787001781EB /* GoogleOCRService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleOCRService.swift; sourceTree = "<group>"; };
+		D68284A32E2A57BA001781EB /* ViewModel_HuaweiOCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel_HuaweiOCR.swift; sourceTree = "<group>"; };
+		D68284A62E2A57DF001781EB /* TencentOCRManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TencentOCRManager.swift; sourceTree = "<group>"; };
 		D687DE0E2E29DA6500550A2D /* XYZOCRKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYZOCRKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D687DE272E29DA6B00550A2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D687DE282E29DA6B00550A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -29,9 +64,12 @@
 		D687DE2B2E29DA6B00550A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D687DE2D2E29DA6B00550A2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D687DE382E2A007000550A2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D687DE392E2A007000550A2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D687DE392E2A007000550A2D /* VC_Test_OCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Test_OCR.swift; sourceTree = "<group>"; };
 		D687DE3E2E2A024F00550A2D /* podsx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = podsx.swift; sourceTree = "<group>"; };
 		D687DE402E2A026F00550A2D /* XYZOCRKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = XYZOCRKit.podspec; sourceTree = "<group>"; };
+		D687DE492E2A05FF00550A2D /* ActivityToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityToken.swift; sourceTree = "<group>"; };
+		D687DE4A2E2A05FF00550A2D /* OCRServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRServiceError.swift; sourceTree = "<group>"; };
+		D687DE4B2E2A05FF00550A2D /* RxImagePickerDelegateProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxImagePickerDelegateProxy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +84,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D68284812E2A5683001781EB /* OCR_科大讯飞 */ = {
+			isa = PBXGroup;
+			children = (
+				D68284802E2A5683001781EB /* ViewModel_XFYun_OCR.swift */,
+			);
+			path = "OCR_科大讯飞";
+			sourceTree = "<group>";
+		};
+		D68284852E2A56B7001781EB /* OCR_Alibaba阿里云 */ = {
+			isa = PBXGroup;
+			children = (
+				D68284832E2A56B7001781EB /* ViewModel_AliyunOCR.swift */,
+				D68284842E2A56B7001781EB /* AliyunOCRService.swift */,
+			);
+			path = "OCR_Alibaba阿里云";
+			sourceTree = "<group>";
+		};
+		D68284892E2A56DA001781EB /* OCR_AliBaBailian_阿里百炼 */ = {
+			isa = PBXGroup;
+			children = (
+				D68284882E2A56DA001781EB /* ViewModel_AliBailian_OCR.swift */,
+			);
+			path = "OCR_AliBaBailian_阿里百炼";
+			sourceTree = "<group>";
+		};
+		D682848E2E2A5705001781EB /* OCR_AWS */ = {
+			isa = PBXGroup;
+			children = (
+				D682848B2E2A5705001781EB /* ViewModel_AWSTextractOCR.swift */,
+				D682848C2E2A5705001781EB /* AWSSignerV4.swift */,
+				D682848D2E2A5705001781EB /* AWSTextractService.swift */,
+			);
+			path = OCR_AWS;
+			sourceTree = "<group>";
+		};
+		D68284952E2A573C001781EB /* OCR_Baidu */ = {
+			isa = PBXGroup;
+			children = (
+				D68284922E2A573C001781EB /* BaiduOCROfficialService.swift */,
+				D68284932E2A573C001781EB /* toBase64String.swift */,
+				D68284942E2A573C001781EB /* BaiduOCRTokenManager.swift */,
+			);
+			path = OCR_Baidu;
+			sourceTree = "<group>";
+		};
+		D682849B2E2A576A001781EB /* OCR_Face++旷世 */ = {
+			isa = PBXGroup;
+			children = (
+				D68284992E2A576A001781EB /* ViewModel_Megvii_OCR.swift */,
+				D682849A2E2A576A001781EB /* MegviiOCRService.swift */,
+			);
+			path = "OCR_Face++旷世";
+			sourceTree = "<group>";
+		};
+		D68284A02E2A5787001781EB /* OCR_Google */ = {
+			isa = PBXGroup;
+			children = (
+				D682849E2E2A5787001781EB /* ViewModel_GoogleOCR.swift */,
+				D682849F2E2A5787001781EB /* GoogleOCRService.swift */,
+			);
+			path = OCR_Google;
+			sourceTree = "<group>";
+		};
+		D68284A42E2A57BA001781EB /* OCR_HuaWei */ = {
+			isa = PBXGroup;
+			children = (
+				D68284A32E2A57BA001781EB /* ViewModel_HuaweiOCR.swift */,
+			);
+			path = OCR_HuaWei;
+			sourceTree = "<group>";
+		};
+		D68284A72E2A57DF001781EB /* OCR_Tencent */ = {
+			isa = PBXGroup;
+			children = (
+				D68284A62E2A57DF001781EB /* TencentOCRManager.swift */,
+			);
+			path = OCR_Tencent;
+			sourceTree = "<group>";
+		};
 		D687DE052E29DA6500550A2D = {
 			isa = PBXGroup;
 			children = (
@@ -69,7 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				D687DE3D2E2A007C00550A2D /* Classes */,
-				D687DE392E2A007000550A2D /* ViewController.swift */,
+				D687DE392E2A007000550A2D /* VC_Test_OCR.swift */,
 				D687DE3A2E2A007000550A2D /* Delegate */,
 				D687DE272E29DA6B00550A2D /* Assets.xcassets */,
 				D687DE282E29DA6B00550A2D /* Info.plist */,
@@ -91,9 +208,37 @@
 		D687DE3D2E2A007C00550A2D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D687DE502E2A0CAF00550A2D /* Service */,
+				D687DE4C2E2A05FF00550A2D /* Base */,
 				D687DE3E2E2A024F00550A2D /* podsx.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		D687DE4C2E2A05FF00550A2D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D687DE492E2A05FF00550A2D /* ActivityToken.swift */,
+				D687DE4A2E2A05FF00550A2D /* OCRServiceError.swift */,
+				D687DE4B2E2A05FF00550A2D /* RxImagePickerDelegateProxy.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D687DE502E2A0CAF00550A2D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D68284A72E2A57DF001781EB /* OCR_Tencent */,
+				D68284A42E2A57BA001781EB /* OCR_HuaWei */,
+				D68284A02E2A5787001781EB /* OCR_Google */,
+				D682849B2E2A576A001781EB /* OCR_Face++旷世 */,
+				D68284952E2A573C001781EB /* OCR_Baidu */,
+				D682848E2E2A5705001781EB /* OCR_AWS */,
+				D68284892E2A56DA001781EB /* OCR_AliBaBailian_阿里百炼 */,
+				D68284852E2A56B7001781EB /* OCR_Alibaba阿里云 */,
+				D68284812E2A5683001781EB /* OCR_科大讯飞 */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		DB8E4FE0032D82AEF5BC0BD8 /* Frameworks */ = {
@@ -231,9 +376,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				D687DE3F2E2A025300550A2D /* podsx.swift in Sources */,
+				D682848A2E2A56DA001781EB /* ViewModel_AliBailian_OCR.swift in Sources */,
 				D687DE3B2E2A007000550A2D /* AppDelegate.swift in Sources */,
-				D687DE3C2E2A007000550A2D /* ViewController.swift in Sources */,
+				D687DE4D2E2A05FF00550A2D /* ActivityToken.swift in Sources */,
+				D687DE4E2E2A05FF00550A2D /* OCRServiceError.swift in Sources */,
+				D682848F2E2A5705001781EB /* ViewModel_AWSTextractOCR.swift in Sources */,
+				D68284A52E2A57BA001781EB /* ViewModel_HuaweiOCR.swift in Sources */,
+				D68284902E2A5705001781EB /* AWSTextractService.swift in Sources */,
+				D68284912E2A5705001781EB /* AWSSignerV4.swift in Sources */,
+				D68284862E2A56B7001781EB /* ViewModel_AliyunOCR.swift in Sources */,
+				D68284872E2A56B7001781EB /* AliyunOCRService.swift in Sources */,
+				D68284822E2A5683001781EB /* ViewModel_XFYun_OCR.swift in Sources */,
+				D68284A12E2A5787001781EB /* GoogleOCRService.swift in Sources */,
+				D68284A22E2A5787001781EB /* ViewModel_GoogleOCR.swift in Sources */,
+				D682849C2E2A576A001781EB /* MegviiOCRService.swift in Sources */,
+				D682849D2E2A576A001781EB /* ViewModel_Megvii_OCR.swift in Sources */,
+				D68284962E2A573C001781EB /* toBase64String.swift in Sources */,
+				D68284972E2A573C001781EB /* BaiduOCRTokenManager.swift in Sources */,
+				D68284982E2A573C001781EB /* BaiduOCROfficialService.swift in Sources */,
+				D687DE4F2E2A05FF00550A2D /* RxImagePickerDelegateProxy.swift in Sources */,
+				D687DE3C2E2A007000550A2D /* VC_Test_OCR.swift in Sources */,
 				D687DE312E29DA6B00550A2D /* SceneDelegate.swift in Sources */,
+				D68284A82E2A57DF001781EB /* TencentOCRManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +432,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9GZYHL8TWB;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = XYZOCRKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -297,6 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9GZYHL8TWB;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = XYZOCRKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
