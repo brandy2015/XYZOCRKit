@@ -6,36 +6,36 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		54682418FCA3D77D94061EDA /* Pods_XYZOCRKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1907D7871F5DE246E35AD5D /* Pods_XYZOCRKit.framework */; };
+		D687DE302E29DA6B00550A2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D687DE262E29DA6B00550A2D /* AppDelegate.swift */; };
+		D687DE312E29DA6B00550A2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D687DE2D2E29DA6B00550A2D /* SceneDelegate.swift */; };
+		D687DE322E29DA6B00550A2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D687DE2E2E29DA6B00550A2D /* ViewController.swift */; };
+		D687DE332E29DA6B00550A2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D687DE272E29DA6B00550A2D /* Assets.xcassets */; };
+		D687DE352E29DA6B00550A2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D687DE2A2E29DA6B00550A2D /* LaunchScreen.storyboard */; };
+		D687DE362E29DA6B00550A2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D687DE2C2E29DA6B00550A2D /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		77484BDDFC876E767FCB7BE1 /* Pods-XYZOCRKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZOCRKit.release.xcconfig"; path = "Target Support Files/Pods-XYZOCRKit/Pods-XYZOCRKit.release.xcconfig"; sourceTree = "<group>"; };
+		7A30ABDA10FEFD074C0AB795 /* Pods-XYZOCRKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZOCRKit.debug.xcconfig"; path = "Target Support Files/Pods-XYZOCRKit/Pods-XYZOCRKit.debug.xcconfig"; sourceTree = "<group>"; };
+		A1907D7871F5DE246E35AD5D /* Pods_XYZOCRKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYZOCRKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D687DE0E2E29DA6500550A2D /* XYZOCRKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYZOCRKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D687DE262E29DA6B00550A2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D687DE272E29DA6B00550A2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D687DE282E29DA6B00550A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D687DE292E29DA6B00550A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D687DE2B2E29DA6B00550A2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D687DE2D2E29DA6B00550A2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D687DE2E2E29DA6B00550A2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		D687DE202E29DA6600550A2D /* Exceptions for "XYZOCRKit" folder in "XYZOCRKit" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = D687DE0D2E29DA6500550A2D /* XYZOCRKit */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		D687DE102E29DA6500550A2D /* XYZOCRKit */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				D687DE202E29DA6600550A2D /* Exceptions for "XYZOCRKit" folder in "XYZOCRKit" target */,
-			);
-			path = XYZOCRKit;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D687DE0B2E29DA6500550A2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54682418FCA3D77D94061EDA /* Pods_XYZOCRKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,8 +45,10 @@
 		D687DE052E29DA6500550A2D = {
 			isa = PBXGroup;
 			children = (
-				D687DE102E29DA6500550A2D /* XYZOCRKit */,
+				D687DE2F2E29DA6B00550A2D /* XYZOCRKit */,
 				D687DE0F2E29DA6500550A2D /* Products */,
+				DDC195A196CDFEDA2977E7AF /* Pods */,
+				DB8E4FE0032D82AEF5BC0BD8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +60,38 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		D687DE2F2E29DA6B00550A2D /* XYZOCRKit */ = {
+			isa = PBXGroup;
+			children = (
+				D687DE262E29DA6B00550A2D /* AppDelegate.swift */,
+				D687DE272E29DA6B00550A2D /* Assets.xcassets */,
+				D687DE282E29DA6B00550A2D /* Info.plist */,
+				D687DE2A2E29DA6B00550A2D /* LaunchScreen.storyboard */,
+				D687DE2C2E29DA6B00550A2D /* Main.storyboard */,
+				D687DE2D2E29DA6B00550A2D /* SceneDelegate.swift */,
+				D687DE2E2E29DA6B00550A2D /* ViewController.swift */,
+			);
+			path = XYZOCRKit;
+			sourceTree = "<group>";
+		};
+		DB8E4FE0032D82AEF5BC0BD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1907D7871F5DE246E35AD5D /* Pods_XYZOCRKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDC195A196CDFEDA2977E7AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A30ABDA10FEFD074C0AB795 /* Pods-XYZOCRKit.debug.xcconfig */,
+				77484BDDFC876E767FCB7BE1 /* Pods-XYZOCRKit.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,20 +99,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D687DE212E29DA6600550A2D /* Build configuration list for PBXNativeTarget "XYZOCRKit" */;
 			buildPhases = (
+				69800BED3F4D1CF30C864FEE /* [CP] Check Pods Manifest.lock */,
 				D687DE0A2E29DA6500550A2D /* Sources */,
 				D687DE0B2E29DA6500550A2D /* Frameworks */,
 				D687DE0C2E29DA6500550A2D /* Resources */,
+				0930CD95366C71032A2BBA06 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				D687DE102E29DA6500550A2D /* XYZOCRKit */,
-			);
 			name = XYZOCRKit;
-			packageProductDependencies = (
-			);
 			productName = XYZOCRKit;
 			productReference = D687DE0E2E29DA6500550A2D /* XYZOCRKit.app */;
 			productType = "com.apple.product-type.application";
@@ -122,24 +153,92 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D687DE332E29DA6B00550A2D /* Assets.xcassets in Resources */,
+				D687DE352E29DA6B00550A2D /* LaunchScreen.storyboard in Resources */,
+				D687DE362E29DA6B00550A2D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0930CD95366C71032A2BBA06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XYZOCRKit/Pods-XYZOCRKit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XYZOCRKit/Pods-XYZOCRKit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XYZOCRKit/Pods-XYZOCRKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69800BED3F4D1CF30C864FEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XYZOCRKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D687DE0A2E29DA6500550A2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D687DE302E29DA6B00550A2D /* AppDelegate.swift in Sources */,
+				D687DE312E29DA6B00550A2D /* SceneDelegate.swift in Sources */,
+				D687DE322E29DA6B00550A2D /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		D687DE2A2E29DA6B00550A2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D687DE292E29DA6B00550A2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D687DE2C2E29DA6B00550A2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D687DE2B2E29DA6B00550A2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		D687DE222E29DA6600550A2D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A30ABDA10FEFD074C0AB795 /* Pods-XYZOCRKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -168,6 +267,7 @@
 		};
 		D687DE232E29DA6600550A2D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77484BDDFC876E767FCB7BE1 /* Pods-XYZOCRKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

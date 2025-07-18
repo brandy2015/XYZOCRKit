@@ -1,0 +1,6 @@
+framework module XYZVCX {
+  umbrella header "XYZVCX-umbrella.h"
+
+  export *
+  module * { export * }
+}
