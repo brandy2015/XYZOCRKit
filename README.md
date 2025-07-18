@@ -40,7 +40,7 @@ XYZOCRKit 提供 OCR（光学字符识别）相关的高效 API，专为 iOS 应
 
 在你的 Podfile 添加：
 
-    pod 'XYZOCRKit', '~> 0.1.0'
+    pod 'XYZOCRKit' 
 
 然后运行：
 
