@@ -52,6 +52,20 @@ For local development or debugging:
     pod 'XYZOCRKit', :path => '../XYZOCRKit'
 
 ---
+### SPM (Swift Package Manager)
+
+Supports integration via Swift Package Manager (Xcode 11+).
+
+**Steps:**
+1. In Xcode, go to `File > Add Packages...`
+2. Enter repository URL:
+
+        https://github.com/brandy/XYZOCRKit.git
+
+3. Select version or branch and click “Add Package”
+4. In your code, simply `import XYZOCRKit`
+
+---
 
 ## Quick Start
 
