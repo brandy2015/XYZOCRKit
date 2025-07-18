@@ -53,6 +53,22 @@ XYZOCRKit 提供 OCR（光学字符识别）相关的高效 API，专为 iOS 应
     pod 'XYZOCRKit', :path => '../XYZOCRKit'
 
 ---
+ 
+
+### SPM（Swift Package Manager）
+
+支持通过 Swift Package Manager 集成，适用于 Xcode 11 及以上。
+
+**步骤：**
+1. 打开 Xcode，菜单栏选择 `File > Add Packages...`
+2. 输入仓库地址：
+
+        https://github.com/你的用户名/XYZOCRKit.git
+
+3. 选择版本或分支，点击 “Add Package”
+4. 在代码中直接 `import XYZOCRKit` 即可使用
+
+---
 
 ## 快速开始
 
