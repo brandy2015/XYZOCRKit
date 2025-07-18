@@ -1,0 +1,26 @@
+// swift-tools-version:5.5
+import PackageDescription
+
+let package = Package(
+    name: "XYZOCRKit",
+    platforms: [
+        .iOS(.v13)
+    ],
+    products: [
+        .library(
+            name: "XYZOCRKit",
+            targets: ["XYZOCRKit"]
+        ),
+    ],
+    targets: [
+        .target(
+            name: "XYZOCRKit",
+            path: "Sources/XYZOCRKit"
+        ),
+        .testTarget(
+            name: "XYZOCRKitTests",
+            dependencies: ["XYZOCRKit"],
+            path: "Tests/XYZOCRKitTests"
+        )
+    ]
+)

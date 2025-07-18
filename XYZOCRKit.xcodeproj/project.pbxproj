@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		54682418FCA3D77D94061EDA /* Pods_XYZOCRKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1907D7871F5DE246E35AD5D /* Pods_XYZOCRKit.framework */; };
+		D6650CF52E2A63040026160F /* Package.swift  in Resources */ = {isa = PBXBuildFile; fileRef = D6650CF42E2A63040026160F /* Package.swift  */; };
 		D68284822E2A5683001781EB /* ViewModel_XFYun_OCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68284802E2A5683001781EB /* ViewModel_XFYun_OCR.swift */; };
 		D68284862E2A56B7001781EB /* ViewModel_AliyunOCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68284832E2A56B7001781EB /* ViewModel_AliyunOCR.swift */; };
 		D68284872E2A56B7001781EB /* AliyunOCRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68284842E2A56B7001781EB /* AliyunOCRService.swift */; };
@@ -41,6 +42,7 @@
 		77484BDDFC876E767FCB7BE1 /* Pods-XYZOCRKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZOCRKit.release.xcconfig"; path = "Target Support Files/Pods-XYZOCRKit/Pods-XYZOCRKit.release.xcconfig"; sourceTree = "<group>"; };
 		7A30ABDA10FEFD074C0AB795 /* Pods-XYZOCRKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZOCRKit.debug.xcconfig"; path = "Target Support Files/Pods-XYZOCRKit/Pods-XYZOCRKit.debug.xcconfig"; sourceTree = "<group>"; };
 		A1907D7871F5DE246E35AD5D /* Pods_XYZOCRKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYZOCRKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6650CF42E2A63040026160F /* Package.swift  */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Package.swift "; sourceTree = "<group>"; };
 		D68284802E2A5683001781EB /* ViewModel_XFYun_OCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel_XFYun_OCR.swift; sourceTree = "<group>"; };
 		D68284832E2A56B7001781EB /* ViewModel_AliyunOCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel_AliyunOCR.swift; sourceTree = "<group>"; };
 		D68284842E2A56B7001781EB /* AliyunOCRService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliyunOCRService.swift; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 		D687DE052E29DA6500550A2D = {
 			isa = PBXGroup;
 			children = (
+				D6650CF42E2A63040026160F /* Package.swift  */,
 				D687DE402E2A026F00550A2D /* XYZOCRKit.podspec */,
 				D687DE2F2E29DA6B00550A2D /* XYZOCRKit */,
 				D687DE0F2E29DA6500550A2D /* Products */,
@@ -320,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D687DE412E2A026F00550A2D /* XYZOCRKit.podspec in Resources */,
+				D6650CF52E2A63040026160F /* Package.swift  in Resources */,
 				D687DE332E29DA6B00550A2D /* Assets.xcassets in Resources */,
 				D687DE352E29DA6B00550A2D /* LaunchScreen.storyboard in Resources */,
 				D687DE362E29DA6B00550A2D /* Main.storyboard in Resources */,
