@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "XYZOCRKit"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "A lightweight OCR toolkit for iOS with RxSwift integration."
   s.description  = <<-DESC
     XYZOCRKit 是一个基于 RxSwift 的轻量级 OCR 文字识别工具包，
