@@ -61,12 +61,12 @@ XYZOCRKit 提供 OCR（光学字符识别）相关的高效 API，专为 iOS 应
 
 **步骤：**
 1. 打开 Xcode，菜单栏选择 `File > Add Packages...`
-2. 输入仓库地址：
+2. 输入仓库地址： 
 
-        https://github.com/你的用户名/XYZOCRKit.git
+   https://github.com/brandy2015/XYZOCRKit.git
 
-3. 选择版本或分支，点击 “Add Package”
-4. 在代码中直接 `import XYZOCRKit` 即可使用
+4. 选择版本或分支，点击 “Add Package”
+5. 在代码中直接 `import XYZOCRKit` 即可使用
 
 ---
 
