@@ -18,19 +18,20 @@ XYZOCRKit 提供 OCR（光学字符识别）相关的高效 API，专为 iOS 应
 - 🛠 简洁 API，易于集成与扩展
 - 📦 支持 CocoaPods 公共源一键集成
 
----
-## 支持的平台
+--- 
+### 支持的平台
 
-已集成的第三方 OCR 库
-	1.	OCR_Tencent（腾讯云 OCR）
-	2.	OCR_HuaWei（华为云 OCR）
-	3.	OCR_Google（Google Vision OCR）
-	4.	OCR_Face++旷世（Face++ 旷视 OCR）
-	5.	OCR_Baidu（百度 OCR）
-	6.	OCR_AWS（Amazon AWS Textract/Comprehend 等 OCR）
-	7.	OCR_AliBaBailian_阿里百炼（阿里云百炼 OCR）
-	8.	OCR_Alibaba阿里云（阿里云标准 OCR）
-	9.	OCR_科大讯飞（科大讯飞 OCR）
+已集成的第三方 OCR 库：
+
+1. **OCR_Tencent**（腾讯云 OCR）
+2. **OCR_HuaWei**（华为云 OCR）
+3. **OCR_Google**（Google Vision OCR）
+4. **OCR_Face++旷世**（Face++ 旷视 OCR）
+5. **OCR_Baidu**（百度 OCR）
+6. **OCR_AWS**（Amazon AWS Textract/Comprehend 等 OCR）
+7. **OCR_AliBaBailian_阿里百炼**（阿里云百炼 OCR）
+8. **OCR_Alibaba阿里云**（阿里云标准 OCR）
+9. **OCR_科大讯飞**（科大讯飞 OCR）
 
 ---
 
